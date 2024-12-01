@@ -1,0 +1,40 @@
+.header{
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  flex: 1.05;
+}
+
+.icon{
+  font-size: 30px;
+  color: aqua;
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+  font-size: 30px;
+  margin: 20px;
+  color: aqua;
+  cursor: pointer;
+}
+
+.link:hover{
+  color: white;
+  transition: all 0.7s ease-out;
+}
+
+.notfound{
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 900;
+}
