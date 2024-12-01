@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom"
 import Homepage from "../pages/Homepage";
 import Content from "../pages/Content";
 import "../styles/App.css";
@@ -15,7 +15,8 @@ export default function App(){
             <Route index element={<Homepage/>}/>
             <Route path="/content" element={<Content/>}/>
           </Route>
-          <Route path="*" element={<Notfound/>}/>
+          <Route path="*" element={<Navigate to="/404" replace />} />
+          <Route path="/404" element={<Notfound />} />
         </Routes>
       </Router>
   )
