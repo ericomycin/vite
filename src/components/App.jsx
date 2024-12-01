@@ -3,7 +3,7 @@ import Homepage from "../pages/Homepage";
 import Content from "../pages/Content";
 import "../styles/App.css";
 import Mainlayout from "../layouts/Mainlayout";
-import Notfound from "../pages/Notfound";
+import Notfound from "../pages/404";
 
 
 
